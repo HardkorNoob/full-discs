@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "full-discs",
+	"version": "${version}",
+	"name": "Full Discs",
+	"description": "Клиентский мод: музыкальные диски доигрывают трек до конца, даже если он длиннее лимита диска.",
+	"authors": ["you"],
+	"license": "CC0-1.0",
+	"environment": "client",
+	"mixins": [
+		{
+			"config": "full-discs.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~1.21.11",
+		"java": ">=21"
+	}
+}

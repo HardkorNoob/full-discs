@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "dev.fulldiscs.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"WorldEventHandlerMixin",
+		"MinecraftClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
